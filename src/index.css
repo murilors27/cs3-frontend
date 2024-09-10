@@ -1,0 +1,192 @@
+/* Importação das fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap');
+
+/* Estilos para todos os elementos */
+* {
+    background-image: url(../img/img02.jpg); /* Define a imagem de fundo para todos os elementos */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    background-size: cover; /* Redimensiona a imagem de fundo para cobrir o contêiner */
+    background-attachment: fixed; /* Fixa a posição da imagem de fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    box-sizing: border-box; /* O tamanho do contêiner inclui a borda e o preenchimento */
+    margin: 0; /* Margem zero */
+    padding: 0; /* Preenchimento zero */
+}
+
+/* Estilos para a barra de navegação */
+.nav-container {
+    display: flex; /* Display flex para alinhar os itens */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    height: 93px; /* Altura da barra de navegação */
+}
+
+/* Estilos para o título principal */
+.title {
+    text-align: center; /* Alinhamento do texto */
+    flex: 1; /* Flexível para ocupar o espaço disponível */
+    color: white; /* Cor do texto */
+    background-image: none; /* Remove a imagem de fundo */
+    font-family: "Exo", sans-serif; /* Fonte do texto */
+    font-weight: 700; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+    font-size: 70px; /* Tamanho da fonte */
+    line-height: 80%; /* Altura da linha */
+    letter-spacing: .06em; /* Espaçamento entre letras */
+    margin-left: 2.5em; /* Margem esquerda */
+}
+
+/* Estilos para os botões */
+.button {
+    color: white; /* Cor do texto */
+    font-family: "Exo", sans-serif; /* Fonte do texto */
+    font-weight: 400; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+    font-size: 30px; /* Tamanho da fonte */
+    line-height: 80%; /* Altura da linha */
+    letter-spacing: .06em; /* Espaçamento entre letras */
+    margin-right: 2em; /* Margem direita */
+    text-decoration: none; /* Remove a decoração de texto padrão */
+}
+
+/* Estilos para o contêiner principal do conteúdo */
+.main-container {
+    display: flex; /* Display flex para alinhar os itens */
+    justify-content: start; /* Justifica o conteúdo à esquerda */
+    align-items: center; /* Alinha os itens verticalmente */
+    height: 80vh; /* Altura do contêiner principal */
+}
+
+/* Estilos para as caixas de conteúdo */
+.content-box {
+    width: 20%; /* Largura das caixas de conteúdo */
+    height: 80vh; /* Altura das caixas de conteúdo */
+    display: flex; /* Display flex para alinhar os itens */
+    flex-direction: column; /* Direção do flex */
+    justify-content: center; /* Justifica o conteúdo ao centro */
+    margin: 0 3em; /* Margem das caixas de conteúdo */
+}
+
+/* Estilos para o conteúdo */
+.content-1,
+.content-2 {
+    color: white; /* Cor do texto */
+    background-image: none; /* Remove a imagem de fundo */
+    font-family: "Exo", sans-serif; /* Fonte do texto */
+    font-weight: 700; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+    font-size: 35px; /* Tamanho da fonte */
+}
+
+/* Estilos para o texto do rodapé */
+.text_footer {
+    color: white; /* Cor do texto */
+    font-family: "Exo", sans-serif; /* Fonte do texto */
+    font-weight: 400; /* Peso da fonte */
+    font-style: normal; /* Estilo da fonte */
+    font-size: 20px; /* Tamanho da fonte */
+    letter-spacing: .06em; /* Espaçamento entre letras */
+    text-align: center; /* Alinhamento do texto */
+    margin-top: 2em; /* Margem superior */
+}
+
+/* Estilos para dispositivos com largura máxima de 430px */
+@media only screen and (max-width: 430px) {
+    .title {
+        font-size: 30px;
+    }
+    .button {
+        font-size: 20px;
+    }
+    .content-1,
+    .content-2 {
+        font-size: 20px;
+    }
+    .text_footer {
+        font-size: 15px;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+    .content-box {
+        width: 80%;
+        margin: 1em 0;
+    }
+}
+
+/* Estilos para dispositivos com largura máxima de 744px */
+@media only screen and (max-width: 744px) {
+    .title {
+        font-size: 40px;
+    }
+    .button {
+        font-size: 25px;
+    }
+    .content-1,
+    .content-2 {
+        font-size: 25px;
+    }
+    .text_footer {
+        font-size: 18px;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+    .content-box {
+        width: 80%;
+        margin: 1em 0;
+    }
+}
+
+/* Estilos para dispositivos com largura máxima de 834px */
+@media only screen and (max-width: 834px) {
+    .title {
+        font-size: 50px;
+    }
+    .button {
+        font-size: 30px;
+    }
+    .content-1,
+    .content-2 {
+        font-size: 30px;
+    }
+    .text_footer {
+        font-size: 20px;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+    .content-box {
+        width: 80%;
+        margin: 1em 0;
+    }
+}
+
+/* Estilos para dispositivos com largura máxima de 1024px */
+@media only screen and (max-width: 1024px) {
+    .title {
+        font-size: 60px;
+    }
+    .button {
+        font-size: 35px;
+    }
+    .content-1,
+    .content-2 {
+        font-size: 35px;
+    }
+    .text_footer {
+        font-size: 20px;
+    }
+    .main-container {
+        flex-direction: column;
+    }
+    .content-box {
+        width: 80%;
+        margin: 1em 0;
+    }
+}

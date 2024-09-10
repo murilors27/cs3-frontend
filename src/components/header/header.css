@@ -1,0 +1,58 @@
+.nav-container {
+    display: flex; /* Display flex para alinhar os itens */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    height: 93px; /* Altura da barra de navegação */
+}
+
+.main-title {
+    text-align: center;
+    /* Alinhamento do texto */
+    flex: 1;
+    /* Flexível para ocupar o espaço disponível */
+    color: white;
+    /* Cor do texto */
+    background-image: none;
+    /* Remove a imagem de fundo */
+    font-family: "Exo", sans-serif;
+    /* Fonte do texto */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 700;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    font-size: 70px;
+    /* Tamanho da fonte */
+    line-height: 80%;
+    /* Altura da linha */
+    letter-spacing: .06em;
+    /* Espaçamento entre letras */
+    margin-left: 2.5em;
+    /* Margem esquerda */
+}
+
+.creators {
+    color: white;
+    /* Cor do texto do link */
+    background-image: none;
+    /* Remove a imagem de fundo */
+    font-family: "Exo", sans-serif;
+    /* Fonte do link */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 400;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    font-size: 25px;
+    /* Tamanho da fonte */
+    line-height: 80%;
+    /* Altura da linha */
+    letter-spacing: .06em;
+    /* Espaçamento entre letras */
+    text-decoration: none;
+    /* Remove o sublinhado padrão */
+    margin-right: 50px;
+    /* Margem direita */
+}

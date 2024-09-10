@@ -1,0 +1,341 @@
+/* Importação das fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap');
+
+/* Estilos para todos os elementos */
+* {
+    background-image: url(../img/img01.jpg);
+    /* Define a imagem de fundo para todos os elementos */
+    background-repeat: no-repeat;
+    /* Impede a repetição da imagem de fundo */
+    background-size: cover;
+    /* Redimensiona a imagem de fundo para cobrir o contêiner */
+    background-attachment: fixed;
+    /* Fixa a posição da imagem de fundo */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    box-sizing: border-box;
+    /* O tamanho do contêiner inclui a borda e o preenchimento */
+    margin: 0;
+    /* Margem zero */
+    padding: 0;
+    /* Preenchimento zero */
+}
+
+/* Estilos para a barra de navegação */
+.nav_container {
+    display: flex;
+    /* Display flex para alinhar os itens */
+    justify-content: space-between;
+    /* Distribui o espaço entre os itens */
+    align-items: center;
+    /* Alinha os itens verticalmente */
+    height: 93px;
+    /* Altura da barra de navegação */
+}
+
+/* Estilos para o título principal */
+.main_title {
+    text-align: center;
+    /* Alinhamento do texto */
+    flex: 1;
+    /* Flexível para ocupar o espaço disponível */
+    color: white;
+    /* Cor do texto */
+    background-image: none;
+    /* Remove a imagem de fundo */
+    font-family: "Exo", sans-serif;
+    /* Fonte do texto */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 700;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    font-size: 70px;
+    /* Tamanho da fonte */
+    line-height: 80%;
+    /* Altura da linha */
+    letter-spacing: .06em;
+    /* Espaçamento entre letras */
+    margin-left: 2.5em;
+    /* Margem esquerda */
+}
+
+/* Estilos para o link "Criadores" */
+.creators {
+    color: white;
+    /* Cor do texto do link */
+    background-image: none;
+    /* Remove a imagem de fundo */
+    font-family: "Exo", sans-serif;
+    /* Fonte do link */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 400;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    font-size: 25px;
+    /* Tamanho da fonte */
+    line-height: 80%;
+    /* Altura da linha */
+    letter-spacing: .06em;
+    /* Espaçamento entre letras */
+    text-decoration: none;
+    /* Remove o sublinhado padrão */
+    margin-right: 50px;
+    /* Margem direita */
+}
+
+/* Estilos para o título secundário */
+.title {
+    color: white;
+    /* Cor do texto */
+    font-family: "Exo", sans-serif;
+    /* Fonte do texto */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 400;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    font-size: 70px;
+    /* Tamanho da fonte */
+    margin-left: 1.5em;
+    /* Margem esquerda */
+    margin-bottom: 0;
+    /* Margem inferior */
+}
+
+/* Estilos para o contêiner principal do conteúdo */
+.main_container {
+    display: flex;
+    /* Display flex para alinhar os itens */
+    justify-content: left;
+    /* Justifica o conteúdo à esquerda */
+    align-items: center;
+    /* Alinha os itens verticalmente */
+    flex-direction: row;
+    /* Direção do flex */
+    height: 80vh;
+    /* Altura do contêiner principal */
+}
+
+/* Estilos para o contêiner dos botões */
+.button_container {
+    display: flex;
+    /* Display flex para alinhar os botões */
+    justify-content: center;
+    /* Justifica os botões ao centro */
+    align-items: center;
+    /* Alinha os botões verticalmente */
+    flex-direction: column;
+    /* Direção do flex */
+}
+
+/* Estilos para os botões */
+.button {
+    color: white;
+    /* Cor do texto */
+    font-family: "Exo", sans-serif;
+    /* Fonte do texto */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 400;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    text-decoration: none;
+    /* Remove a decoração de texto padrão */
+    border: 1px solid white;
+    /* Borda do botão */
+    padding: 10px 20px;
+    /* Preenchimento interno do botão */
+    margin: 10px;
+    /* Margem externa do botão */
+    border-radius: 5px;
+    /* Raio da borda do botão */
+    background-color: transparent;
+    /* Cor de fundo do botão */
+    font-size: 35px;
+    /* Tamanho da fonte */
+    display: flex;
+    /* Display flex para alinhar o texto verticalmente */
+    flex-direction: column;
+    /* Direção do flex */
+    text-align: center;
+    /* Alinhamento do texto */
+    margin-left: 2em;
+    /* Margem esquerda */
+    letter-spacing: .06em;
+    /* Espaçamento entre letras */
+    width: 50%;
+    /* Largura do botão */
+}
+
+/* Estilos de foco ao passar o mouse sobre os botões */
+.button:hover {
+    border: 1px solid black;
+    /* Borda do botão ao passar o mouse */
+    color: black;
+    /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para o texto do rodapé */
+.text_footer {
+    color: white;
+    /* Cor do texto */
+    font-family: "Exo", sans-serif;
+    /* Fonte do texto */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 400;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    letter-spacing: .06em;
+    /* Espaçamento entre letras */
+    text-align: center;
+    /* Alinhamento do texto */
+}
+
+@media(max-width: 430px) {
+    * {
+        background-position: -600px;
+    }
+
+    .main_title {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+
+    .creators {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .main_container {
+        margin: 150px 0 -150px;
+        height: 70vh;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .button {
+        width: 70%;
+        text-align: left;
+    }
+
+    .text_footer {
+        font-size: 15px;
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 744px) {
+    * {
+        background-position: -650px;
+    }
+
+    .main_title {
+        font-size: 40px;
+    }
+
+    .creators {
+        font-size: 25px;
+
+    }
+
+    .main_container {
+        height: 60vh;
+        margin: 300px 0 -200px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .button {
+        width: 70%;
+        text-align: left;
+    }
+
+    .text_footer {
+        font-size: 15px;
+        margin-top: 200px;
+    }
+}
+
+@media(max-width: 834px) {
+    * {
+        background-position: -600px;
+    }
+
+    .main_title {
+        font-size: 40px;
+    }
+
+    .creators {
+        font-size: 25px;
+
+    }
+
+    .main_container {
+        height: 60vh;
+        margin: 300px 0 -200px;
+    }
+
+    .title {
+        font-size: 45px;
+    }
+
+    .button {
+        width: 70%;
+        text-align: left;
+    }
+
+    .text_footer {
+        font-size: 15px;
+        margin-top: 200px;
+    }
+}
+
+@media(max-width: 1024px) {
+    * {
+        background-position: -200px;
+    }
+
+    .main_title {
+        font-size: 50px;
+    }
+
+    .creators {
+        font-size: 20px;
+    }
+
+    .main_container {
+        height: 60vh;
+        margin: 150px 0 -200px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .button {
+        width: 70%;
+        text-align: left;
+    }
+
+    .text_footer {
+        font-size: 15px;
+        margin-top: 200px;
+    }
+}
