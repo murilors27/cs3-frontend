@@ -22,7 +22,7 @@ const Card: React.FC <CardProps> = ({ nome, rm, sala, img, github }) => {
 
         <p>{sala}</p>
 
-        <Link to={github} target="_blank">
+        <Link to={github} target="_blank" className="card__link">
           GitHub
         </Link>
       </div>

@@ -8,6 +8,11 @@
   display: inline-block; /* Exibe os cards como elementos em linha */
   height: 50%; /* Altura dos cards */
   text-align: center; /* Alinhamento do texto */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Estilos para o contêiner dos cards */
@@ -42,4 +47,9 @@
   letter-spacing: .06em; /* Espaçamento entre letras */
   text-align: center; /* Alinhamento do texto */
   margin-top: 2em; /* Margem superior */
+}
+
+.card__link {
+  text-decoration: none;
+  color: white;
 }
