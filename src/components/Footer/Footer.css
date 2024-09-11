@@ -1,0 +1,19 @@
+.text_footer {
+    color: white;
+    /* Cor do texto */
+    /* Fonte do texto */
+    font-optical-sizing: auto;
+    /* Tamanho óptico da fonte */
+    font-weight: 400;
+    /* Peso da fonte */
+    font-style: normal;
+    /* Estilo da fonte */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    letter-spacing: .06em;
+    /* Espaçamento entre letras */
+    text-align: center;
+    /* Alinhamento do texto */
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}

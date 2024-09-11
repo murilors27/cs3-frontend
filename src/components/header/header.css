@@ -1,14 +1,20 @@
-.nav-container {
-    display: flex; /* Display flex para alinhar os itens */
-    justify-content: space-between; /* Distribui o espaço entre os itens */
-    align-items: center; /* Alinha os itens verticalmente */
-    height: 93px; /* Altura da barra de navegação */
+
+.nav_container {
+    display: flex;
+    /* Display flex para alinhar os itens */
+    justify-content: space-between;
+    /* Distribui o espaço entre os itens */
+    align-items: center;
+    /* Alinha os itens verticalmente */
+    height: 93px;
+    /* Altura da barra de navegação */
+    padding: 0.5rem 4rem;
 }
 
-.main-title {
+.main_title {
     text-align: center;
     /* Alinhamento do texto */
-    flex: 1;
+  
     /* Flexível para ocupar o espaço disponível */
     color: white;
     /* Cor do texto */
@@ -28,8 +34,11 @@
     /* Altura da linha */
     letter-spacing: .06em;
     /* Espaçamento entre letras */
-    margin-left: 2.5em;
-    /* Margem esquerda */
+    text-decoration: none;
+}
+
+.main_title:hover, .creators:hover{
+    opacity: 65%;
 }
 
 .creators {
@@ -53,6 +62,5 @@
     /* Espaçamento entre letras */
     text-decoration: none;
     /* Remove o sublinhado padrão */
-    margin-right: 50px;
     /* Margem direita */
 }
