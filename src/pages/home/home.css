@@ -3,26 +3,24 @@
     justify-content: left;
     flex-direction: column;
     margin-top: 5rem;
-
-}
-
-.title {
+  }
+  
+  .title {
     color: white;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 70px;
     margin-left: 1.5em;
-}
-
-.main_text {
+  }
+  
+  .main_text {
     color: white;
     font-size: 56px;
     padding: 5rem 7rem;
-}
-
-/* Estilos para os botões */
-.button {
+  }
+  
+  .button {
     align-items: center;
     flex-direction: column;
     color: white;
@@ -40,10 +38,41 @@
     margin-left: 7rem;
     letter-spacing: .06em;
     width: 20rem;
-}
-
-/* Estilos de foco ao passar o mouse sobre os botões */
-.button:hover {
+  }
+  
+  .button:hover {
     border: 1px solid black;
     color: black;
-}
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .main_text {
+      font-size: 48px;
+      padding: 3rem;
+    }
+
+    .main_container {
+        align-items: center;
+    }
+  
+    .button {
+      width: 16rem;
+      margin-left: 0rem;
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main_text {
+      font-size: 36px;
+      padding: 2rem;
+    }
+  
+    .button {
+      width: 14rem;
+      margin-left: 1rem;
+      font-size: 28px;
+    }
+  }
+  

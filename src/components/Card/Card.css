@@ -1,13 +1,12 @@
-.card{
-  background-image: none; /* Remove a imagem de fundo dos cards */
-  background-color: #2B2B2B; /* Cor de fundo dos cards */
-  border-radius: 10px; /* Raio da borda dos cards */
-  margin: 1em; /* Margem externa */
-  padding: 1em; /* Preenchimento interno */
-  width: 15rem; /* Largura dos cards */
-  display: inline-block; /* Exibe os cards como elementos em linha */
-  height: 50%; /* Altura dos cards */
-  text-align: center; /* Alinhamento do texto */
+.card {
+  background-color: #2B2B2B;
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+  width: 15rem;
+  display: inline-block;
+  height: auto;
+  text-align: center;
   color: white;
   display: flex;
   flex-direction: column;
@@ -15,41 +14,58 @@
   align-items: center;
 }
 
-/* Estilos para o contêiner dos cards */
-.card_container {
-  display: flex; /* Display flex para alinhar os cards */
-  justify-content: space-around; /* Distribui o espaço entre os cards */
-  align-items: center; /* Alinha os cards verticalmente */
-  height: 79vh; /* Altura do contêiner dos cards */
-}
-
-/* Estilos para a imagem dos criadores */
 .img-criador {
-  border-radius: 30%; /* Raio da borda da imagem */
-  width: 65%; /* Largura da imagem */
-  height: 45%; /* Altura da imagem */
+  border-radius: 30%;
+  width: 65%;
+  height: auto;
 }
 
-.link-to-repository{
+.link-to-repository {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
 }
 
-/* Estilos para o texto do rodapé */
 .text_footer {
-  color: white; /* Cor do texto do rodapé */
-  font-family: "Exo", sans-serif; /* Fonte do texto do rodapé */
-  font-weight: 400; /* Peso da fonte */
-  font-style: normal; /* Estilo da fonte */
-  font-size: 20px; /* Tamanho da fonte */
-  letter-spacing: .06em; /* Espaçamento entre letras */
-  text-align: center; /* Alinhamento do texto */
-  margin-top: 2em; /* Margem superior */
+  color: white;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: .06em;
+  text-align: center;
+  margin-top: 2em;
 }
 
 .card__link {
   text-decoration: none;
   color: white;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .card {
+    width: 12rem;
+  }
+
+  .img-criador {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .criadores_main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 15rem;
+    margin: 1rem 0;
+  }
+
+  .img-criador {
+    width: 80%;
+  }
 }

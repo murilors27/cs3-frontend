@@ -1,19 +1,27 @@
 .text_footer {
     color: white;
-    /* Cor do texto */
-    /* Fonte do texto */
     font-optical-sizing: auto;
-    /* Tamanho óptico da fonte */
     font-weight: 400;
-    /* Peso da fonte */
     font-style: normal;
-    /* Estilo da fonte */
     font-size: 20px;
-    /* Tamanho da fonte */
     letter-spacing: .06em;
-    /* Espaçamento entre letras */
     text-align: center;
-    /* Alinhamento do texto */
     padding: 1.5rem 0;
     margin-top: 2rem;
-}
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .text_footer {
+      font-size: 18px;
+      padding: 1rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .text_footer {
+      font-size: 16px;
+      padding: 0.5rem 0;
+    }
+  }
+  

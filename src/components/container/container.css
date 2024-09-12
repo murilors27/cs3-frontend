@@ -1,10 +1,17 @@
 .container {
     box-sizing: border-box;
-    /* O tamanho do contêiner inclui a borda e o preenchimento */
-    /* Define a imagem de fundo para todos os elementos */
     background-repeat: no-repeat;
-    /* Impede a repetição da imagem de fundo */
     background-size: cover;
-    /* Redimensiona a imagem de fundo para cobrir o contêiner */
     background-attachment: fixed;
-}
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .container {
+      background-attachment: scroll;
+    }
+  }
+  
