@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+    align-items: center;
+}
+
+.container_text {
+    color: white;
+    font-size: 32px;
+    width: 20%;
+    font-weight: 700;
+}

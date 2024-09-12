@@ -3,6 +3,7 @@
     justify-content: left;
     flex-direction: column;
     margin-top: 5rem;
+
 }
 
 .title {
@@ -12,6 +13,12 @@
     font-style: normal;
     font-size: 70px;
     margin-left: 1.5em;
+}
+
+.main_text {
+    color: white;
+    font-size: 56px;
+    padding: 5rem 7rem;
 }
 
 /* Estilos para os botões */

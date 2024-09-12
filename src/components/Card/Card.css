@@ -4,7 +4,7 @@
   border-radius: 10px; /* Raio da borda dos cards */
   margin: 1em; /* Margem externa */
   padding: 1em; /* Preenchimento interno */
-  width: 15%; /* Largura dos cards */
+  width: 15rem; /* Largura dos cards */
   display: inline-block; /* Exibe os cards como elementos em linha */
   height: 50%; /* Altura dos cards */
   text-align: center; /* Alinhamento do texto */
