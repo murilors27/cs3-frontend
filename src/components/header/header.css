@@ -43,6 +43,7 @@
       flex-direction: column;
       height: auto;
       padding: 1rem;
+      gap: 1rem;
     }
   
     .main_title {
