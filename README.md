@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# Chevotech: OpalaVision
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto visa apresentar o OpalaVision, ferramenta que detecta problemas no seu carro de forma ágil e precisa,
+para que possam ser resolvidos antecipadamente e sem dores de cabeça.
 
-Currently, two official plugins are available:
+## Índice
+1. [Introdução](#introdução)
+2. [Requisitos](#requisitos)
+3. [Instalação](#instalação)
+4. [Uso](#nossa-equipe)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introdução
 
-## Expanding the ESLint configuration
+Apresente o sistema, seu propósito e principais funcionalidades.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias
 
-- Configure the top-level `parserOptions` property like this:
+* ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+* ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Instalação
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. [Clonar o repositório](#git clone https://github.com/murilors27/cs3-frontend)
+2. [Navegar até o diretório do projeto](#cd cs3-frontend)
+3. [Instalar dependências](#npm install)
+4. [Rodar o projeto](#npm run dev)
+5. [Acessar a localhost](#http://localhost:5173/)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Nossa equipe
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+**Murilo Ribeiro** - [GitHub](https://github.com/murilors27)
+ 
+**Thiago Garcia** - [GitHub](https://github.com/diogoweyne)
+ 
+**Ian Madeira** - [GitHub](https://github.com/tonato22)
