@@ -1,0 +1,15 @@
+CONTA DO FIGMA:
+
+email:
+chevotech2024@gmail.com
+
+senha:
+garciaian2024
+
+### Observações
+PS: Por algum motivo o figma só está logando na conta quando tentamos logar com a opção "Continue with Google" e adicionando o email e senha.
+
+caso não entre na conta, colocamos o projeto para quem tiver o link conseguir ver:
+https://www.figma.com/file/jZLbsmsrDtyMZxZVuKXpAX/ChevoTech?type=design&node-id=1%3A2&mode=design&t=V90hVrA0bGsXnLMG-1
+
+obrigado!
