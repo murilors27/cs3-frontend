@@ -22,7 +22,7 @@ const Criadores: React.FC = () => {
           nome="Thiago Garcia"
           rm="99404"
           sala="1TDSPY"
-          github="https://github.com/murilors27"
+          github="https://github.com/thiago-tonato"
           img={ImgThiago}
         />
 

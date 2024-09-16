@@ -32,6 +32,6 @@ Apresente o sistema, seu propósito e principais funcionalidades.
 
 **Murilo Ribeiro** - [GitHub](https://github.com/murilors27)
  
-**Thiago Garcia** - [GitHub](https://github.com/diogoweyne)
+**Thiago Garcia** - [GitHub](https://github.com/thiago-tonato)
  
 **Ian Madeira** - [GitHub](https://github.com/tonato22)
