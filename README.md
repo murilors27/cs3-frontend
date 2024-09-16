@@ -7,7 +7,7 @@ para que possam ser resolvidos antecipadamente e sem dores de cabeça.
 1. [Introdução](#introdução)
 2. [Requisitos](#requisitos)
 3. [Instalação](#instalação)
-4. [Uso](#nossa-equipe)
+4. [Nosssa equipe](#nossa-equipe)
 
 ## Introdução
 
