@@ -30,7 +30,7 @@ const Criadores: React.FC = () => {
           nome="Ian Madeira"
           rm="555502"
           sala="1TDSPY"
-          github="https://github.com/murilors27"
+          github="https://github.com/IanMadeira"
           img={ImgIan}
         />
       </section>
