@@ -34,4 +34,4 @@ Apresente o sistema, seu propósito e principais funcionalidades.
  
 **Thiago Garcia** - [GitHub](https://github.com/thiago-tonato)
  
-**Ian Madeira** - [GitHub](https://github.com/tonato22)
+**Ian Madeira** - [GitHub](https://github.com/IanMadeira)
