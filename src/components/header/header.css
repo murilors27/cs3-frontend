@@ -6,7 +6,7 @@
   padding: 0.5rem 4rem;
 }
 
-.main_title {
+.nav_container_title {
   text-align: center;
   color: white;
   background-image: none;
@@ -20,13 +20,12 @@
   text-decoration: none;
 }
 
-.main_title:hover, .creators:hover {
+.nav_container_title:hover, .nav_container_options:hover {
   opacity: 65%;
 }
 
-.creators {
+.nav_container_options {
   color: white;
-  background-image: none;
   font-family: "Exo", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -46,21 +45,21 @@
     gap: 1rem;
   }
 
-  .main_title {
+  .nav_container_title {
     font-size: 50px;
   }
 
-  .creators {
+  .nav_container_options {
     font-size: 20px;
   }
 }
 
 @media (max-width: 480px) {
-  .main_title {
+  .nav_container_title {
     font-size: 40px;
   }
 
-  .creators {
+  .nav_container_options {
     font-size: 18px;
   }
 }
